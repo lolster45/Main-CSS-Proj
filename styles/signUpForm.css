@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f2937;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    color: #1f2937;
+    padding: 20px;
+    width: 70%;
+    height: 500px;
+}
+#input-container > div {
+    position: relative;
+    height: 95%;
+    width: 80%;
+    padding-right: 30px;
+}
+#input-container > div > h1 {
+    /* background-color: blue; */
+    font-size: 48px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+#input-container > div > h1 > span {
+    color: #3882F6;
+}
+#input-container > div > p {
+   line-height: 30px;
+   padding-left: 5px;
+   padding-right: 20px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+#form > label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#form > input {
+    margin-bottom: 30px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    text-indent: 10px;
+    outline: none;
+    background-color: #E5E7EB;
+
+    border-bottom: 1px solid #1f2937;
+}
+#form > input:focus {
+    border-bottom: 2px solid #1f2937;
+}
+.required-symbol {
+    color: red;
+}
+#form > button {
+    background-color: #3882F6;
+    height: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.150s ease;
+}
+
+#form > button:hover {
+    background-color: white;
+    color: #3882F6;
+    border: 1px solid #1f2937;
+}
+
+
+#link > button {
+    position: absolute;
+    bottom: -20px;
+    left: 6px;
+    background-color: #3882F6;
+    border: none;
+
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 80px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.150s ease;
+
+}
+
+
+#link:hover button  {
+    color: #3882F6;
+    background-color: white;
+    border: 1px solid #1f2937;
+}
