@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-
 }
 
 #nav-container {
@@ -14,11 +13,7 @@
     padding: 20px;
 }
 
-
-/*wondering why  #nav-bar > nav does not work */
-
-
-/* Styling for the first section */
+/* Styling for the Nav Bar */
 #nav-menu {
     display: flex;
     justify-content: space-between;
@@ -40,7 +35,7 @@
     color: #3882F6;
 }
 /* --------------------------------- */
-/* styling for all sections */
+        /* styling for all sections */
 .section-styling {
     display: flex;
     align-items: center;
@@ -50,14 +45,13 @@
     padding-top: 0px;
 }
 
+/*Styling for first section*/
 .section-styling.main {
     background-color: #1F2937;
     height: 360px;
-    /* background-color: yellow; */
     padding-top: 50px;
     padding-bottom: 40px;
 }
-
 #first-article {
     display: flex;
     justify-content: center;
@@ -71,7 +65,6 @@
     color: white;
     width: 30%;
     padding-right: 40px;
-
 }
 #first-article div:first-child > header {
     font-size: 48px;
@@ -93,7 +86,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.150s ease;
-
 }
 #first-article div:first-child > button:hover {
     background-color: white;
@@ -107,8 +99,8 @@
     background-color: grey;
     width: 40%;
 }
-/*---------styles-for-second-section-----------------------------*/
 
+/*---------styles-for-second-section-----------------------------*/
 .section-styling.second {
     background-color:white;
     color: black;
@@ -127,12 +119,10 @@
     color: #1F2937;
     margin-bottom: 40px;
 }
-
 #image-subtexts {
     display: flex;
     gap: 20px;
     height: 200px;
-
 }
 #image-subtexts > figure {
     display: flex;
@@ -144,7 +134,6 @@
 #image-subtexts > figure > div:first-child {
     margin: 0 auto;
 }
-
 .random-info-img {
     height: 120px;
     width: 120px;
@@ -152,12 +141,10 @@
     border-radius: 10px;
 }
 
-
 /*----Section-styling-for-quote-section-------------*/
 .section-styling.third {
     background-color: #E5E7EB;
 }
-
 .section-styling.third > figure {
     display: flex;
     align-items: center;
@@ -165,7 +152,6 @@
     color: black;
     width: 50%;
     height: 220px;
-
 }
 .section-styling.third > figure > blockquote {
     font-size: 36px;
@@ -180,15 +166,7 @@
     padding-right: 10px;
 }
 
-
-
-
-
-
-
-
 /* -----------Third-section-styling-------------------- */
-
 #sign-up-container {
     display: flex;
     align-items: center;
@@ -206,7 +184,6 @@
     padding-right: 90px;
     color: white;
 }
-
 #link {
     display: flex;
     align-items: center;
@@ -221,9 +198,6 @@
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-
-
-
 }
 #link > button {
     background-color: #3882F6;
@@ -237,15 +211,10 @@
     cursor: pointer;
     transition: all 0.4s ease;
 }
-
-
 #link:hover button  {
     color: #3882F6;
     background-color: white;
 }
-
-
-
 .section-styling.footer {
     display: flex;
     align-items: center;
@@ -255,8 +224,3 @@
     text-align: center;
     color: white;
 }
-
-
-
-
-

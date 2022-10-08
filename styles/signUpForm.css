@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #1f2937;
     height: 100vh;
@@ -15,7 +14,7 @@ body {
     padding-right: 20px;
     padding-left: 20px;
 }
-
+    /*Container holding both sections, h1 and form */
 #input-container {
     display: flex;
     align-items: center;
@@ -31,6 +30,7 @@ body {
     position: relative;
     height: 95%;
     width: 80%;
+    padding: 10px;
     padding-right: 30px;
 }
 #input-container > div > h1 {
@@ -54,6 +54,7 @@ body {
     margin: 0 auto;
     width: 80%;
     height: 80%;
+    padding-right: 10px;
 }
 #form > label {
     margin-bottom: 10px;
@@ -68,7 +69,6 @@ body {
     text-indent: 10px;
     outline: none;
     background-color: #E5E7EB;
-
     border-bottom: 1px solid #1f2937;
 }
 #form > input:focus {
@@ -87,14 +87,11 @@ body {
     font-weight: bold;
     transition: all 0.150s ease;
 }
-
 #form > button:hover {
     background-color: white;
     color: #3882F6;
     border: 1px solid #1f2937;
 }
-
-
 #link > button {
     position: absolute;
     bottom: -20px;
@@ -109,10 +106,7 @@ body {
     padding: 0;
     cursor: pointer;
     transition: all 0.150s ease;
-
 }
-
-
 #link:hover button  {
     color: #3882F6;
     background-color: white;
