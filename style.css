@@ -41,14 +41,13 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    height: 380px;
     padding-top: 0px;
 }
 
 /*Styling for first section*/
 .section-styling.main {
     background-color: #1F2937;
-    height: 360px;
+    height: 420px;
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -57,14 +56,14 @@
     justify-content: center;
     background-color: #1F2937;
     color: black;
-    width: 100%;
+    width: 70%;
     height: 220px;  
 }
 #first-article div:first-child {
     background-color: #1F2937;
     color: white;
-    width: 30%;
-    padding-right: 40px;
+    width: 55%;
+    padding-right: 80px;
 }
 #first-article div:first-child > header {
     font-size: 48px;
@@ -76,12 +75,12 @@
     color: #E5E7EB;
 }
 #first-article div:first-child > button {
-    margin-top: 5px; 
+    margin-top: 10px; 
     font-weight: bold;
     background-color: #3882F6;
     color: #E5E7EB;
     height: 35px;
-    width: 80px;
+    width: 120px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -97,18 +96,21 @@
     justify-content: center;
     text-align: center;
     background-color: grey;
-    width: 40%;
+    color: #E5E7EB;
+    width: 45%;
 }
 
 /*---------styles-for-second-section-----------------------------*/
 .section-styling.second {
     background-color:white;
     color: black;
+    height: 400px;
 }
 #info-article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transform: translateY(-35px);
     color: black;
     width: 70%;
     height: 240px;
@@ -131,19 +133,23 @@
     text-align: center;
     width: 180px;
 }
+#image-subtexts > figure > figcaption {
+    padding-top: 5px;
+}
 #image-subtexts > figure > div:first-child {
     margin: 0 auto;
 }
 .random-info-img {
     height: 120px;
     width: 120px;
-    border: 3px solid #3882F6;
+    border: 3.4px solid #3882F6;
     border-radius: 10px;
 }
 
 /*----Section-styling-for-quote-section-------------*/
 .section-styling.third {
     background-color: #E5E7EB;
+    height: 390px;
 }
 .section-styling.third > figure {
     display: flex;
@@ -153,10 +159,14 @@
     width: 50%;
     height: 220px;
 }
-.section-styling.third > figure > blockquote {
+.section-styling.third > figure {
+    padding-top: 30px;
+}
+.section-styling.third > figure > blockquote > em {
+    font-family: 'Roboto', sans-serif;
+
     font-size: 36px;
-    font-style:italic;
-    font-weight:100;
+    font-weight: 300;
     color: #1F2937;
 }
 .section-styling.third > figure > figcaption {
@@ -167,6 +177,9 @@
 }
 
 /* -----------Third-section-styling-------------------- */
+.section-styling.fourth {
+    height: 310px;
+}
 #sign-up-container {
     display: flex;
     align-items: center;

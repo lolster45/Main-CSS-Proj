@@ -74,6 +74,9 @@ body {
 #form > input:focus {
     border-bottom: 2px solid #1f2937;
 }
+#form > input:focus::placeholder {
+    color: transparent;
+}
 .required-symbol {
     color: red;
 }
