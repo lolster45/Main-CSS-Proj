@@ -173,7 +173,7 @@
     font-weight: 300;
     color: #1F2937;
 }
-.section-styling.third > figure > figcaption {
+#author {
     width: 100%;
     font-weight: bolder;
     text-align: end;
