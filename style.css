@@ -4,20 +4,19 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
 #nav-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1F2937;
     color: white;
     padding: 20px;
+    padding-left: 245px;
+    padding-right: 245px;
 }
-
 /* Styling for the Nav Bar */
 #nav-menu {
     display: flex;
     justify-content: space-between;
-    width: 70%; 
 }
 #logo {
     font-size: 24px;
@@ -39,106 +38,81 @@
     color: #3882F6;
 }
 /* --------------------------------- */
-        /* styling for all sections */
+    /* styling for all sections */
 .section-styling {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 20px;
     padding-top: 0px;
 }
-
 /*Styling for first section*/
 .section-styling.main {
+    gap: 100px;
     background-color: #1F2937;
     height: 420px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
+    padding-left: 245px;
+    padding-right: 245px;
 }
-#first-article {
+.section-styling.main > aside {
+    height: 228px;
+    width: 1500px;
+    color: #F9FAF8;
+}
+.section-styling.main > div {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: #1F2937;
-    color: black;
-    width: 70%;
-    height: 220px;  
+    background-color: grey;
+    color: #F9FAF8;
+    height: 228px;
+    width: 1300px;
 }
-#first-article div:first-child {
-    background-color: #1F2937;
+.section-styling.main > aside > button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
     color: white;
-    width: 55%;
-    padding-right: 80px;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.section-styling.main > aside > button:hover {
+    background-color: white;
+    color: #3882F6;
 }
 #main-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-#first-article div:first-child > p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-#first-article div:first-child > button {
-    margin-top: 10px; 
-    font-weight: bold;
-    background-color: #3882F6;
-    color: #E5E7EB;
-    height: 35px;
-    width: 120px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.150s ease;
-}
-#first-article div:first-child > button:hover {
-    background-color: white;
-    color: #3882F6;
-}
-#first-article div:nth-child(2) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: grey;
-    color: #E5E7EB;
-    width: 45%;
-}
-
 /*---------styles-for-second-section-----------------------------*/
 .section-styling.second {
+    display: flex;
+    flex-direction: column;
     background-color:white;
     color: black;
     height: 400px;
 }
-#info-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(-35px);
-    color: black;
-    width: 70%;
-    height: 240px;
+.section-styling.second > h2 {
+    font-size: 28px;
+    margin-top: 10px;
 }
-#info-article > h1 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    margin-bottom: 40px;
+#image-subtexts {
+  
 }
 #image-subtexts {
     display: flex;
-    gap: 20px;
-    height: 200px;
-}
-#image-subtexts > figure {
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    gap: 40px;
+    height: 200px;
     width: 180px;
-}
-#image-subtexts > figure > figcaption {
-    padding-top: 5px;
+    margin-top: 40px;
 }
 #image-subtexts > figure > div:first-child {
     margin: 0 auto;
@@ -152,23 +126,18 @@
 
 /*----Section-styling-for-quote-section-------------*/
 .section-styling.third {
-    background-color: #E5E7EB;
-    height: 390px;
-}
-.section-styling.third > figure {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: black;
-    width: 50%;
-    height: 220px;
+    padding: 20px;
+    padding-top: 100px;
+    padding-left: 395px;
+    padding-right: 395px;
+    background-color: #E5E7EB;
+    height: 390px;
 }
-.section-styling.third > figure {
-    padding-top: 30px;
-}
-.section-styling.third > figure > blockquote > em {
+.section-styling.third > blockquote > em {
     font-family: 'Roboto', sans-serif;
-
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
@@ -179,25 +148,24 @@
     text-align: end;
     padding-right: 10px;
 }
-
 /* -----------Third-section-styling-------------------- */
 .section-styling.fourth {
-    height: 310px;
-}
-#sign-up-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #3882F6;
-    width: 70%;
-    height: 110px;
+    align-items: center;
+    height: 310px;
 }
 #main-sign-up {
     display: flex;
     justify-content: space-between;
+    background-color: #3882F6;
     width: 70%;
+    height: 100px;
+    padding: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
-#main-sign-up > div {
+#main-sign-up > aside {
     padding-right: 90px;
     color: white;
 }
@@ -220,7 +188,6 @@
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
-
     color: white;
     height: 100%;
     width: 100%;
@@ -235,6 +202,7 @@
 .section-styling.footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 20px;
     height: 70px;
     background-color: #1F2937;
